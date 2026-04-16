@@ -1,5 +1,77 @@
+/* Global Styles */
+
 * {
-  /* margin: 0;
-  padding: 0; */
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Mobile Style */
+
+body {
+  background-color: white;
+  display: grid;
+  width: 100%;
+}
+
+/* Header */
+
+.site-header {
+  border-bottom: 2px solid black;
+  padding: 0%;
+}
+
+/* Navigation */
+
+.site-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid black;
+  background-color: #0b3d0b;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+}
+
+.nav-item a {
+  color: whitesmoke;
+  text-decoration: none;
+  font-size: 1.25rem;
+}
+
+.nav-item a:hover {
+  color: whitesmoke;
+  text-decoration: underline;
+}
+
+.nav-item {
+  padding: 2.5%;
+  flex: 1;
+  text-align: center;
+  white-space: nowrap;
+}
+
+/* Nav Menu */
+
+.sm-screen-menu {
+  padding: 2.5%;
+}
+
+.menu-icon {
+  color: whitesmoke;
+  font-size: 2rem;
+}
+
+/* Bottom Header */
+
+.bottom-header {
+  padding: 5%;
 }
